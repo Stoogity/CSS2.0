@@ -1,0 +1,56 @@
+/* Flex */
+.nav {
+    display: flex;
+    width: 100%;
+}
+
+.nav img {
+    display: flex;
+}
+/* Includes padding and border */
+.photo {
+   width: 10em;
+   height: auto;
+   padding: 2em;
+   border-style: ridge;
+}
+
+#explanationContainer {
+    width: 33%;
+    position: static;
+}
+
+body {
+    background-color: azure;
+}
+
+/* Contains float (This is really useful!!!) */
+#iati img {
+    float: left;
+    border-style: ridge;
+    width: 40%;
+}
+
+.review {
+    margin-left: 50em;
+    
+}
+
+/* float */
+#scarpa img {
+    float: left;
+    border-style: ridge;
+    width: 40%;
+}
+
+/* float */
+#evolv img {
+    float: left;
+    border-style: ridge;
+    width: 40%;
+}
+
+/* grid */
+#gridCon {
+    display: grid;
+}
